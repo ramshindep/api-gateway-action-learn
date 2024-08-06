@@ -27,6 +27,14 @@ jobs:
      steps:
        - name : print env
          run: echo $JDK_VERSION
+
+  print-maven-version:
+       runs-on: ubuntu-latest
+       steps:
+         - name: print maven version
+           run : echo $MAVEN_VERSION
+       
+        
      
      
         
