@@ -15,6 +15,10 @@ jobs:
         run: |
          apk add --no-cache $JDK_VERSION
          java --version
+         echo "MAVEN_VERSION=1234" >>  $GITHUB_ENV
+
+      - name: print maven version
+        run: echo $MAVEN_VERSION
 
   print-env:
      runs-on: ubuntu-latest
