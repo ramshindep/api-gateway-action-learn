@@ -13,5 +13,5 @@ jobs:
         run: |
          apk add --no-cache openjdk11-jdk
          java --version
-      - name: print java -version
+     
         
