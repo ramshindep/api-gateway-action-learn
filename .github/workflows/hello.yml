@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: install java
         run: |
-         apk add --no-cache $ JDK_VERSION
+         apk add --no-cache $JDK_VERSION
          java --version
      
         
