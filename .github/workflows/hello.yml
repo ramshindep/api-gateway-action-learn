@@ -1,6 +1,11 @@
-name: Learn basic of GitHub Action
+name: Learn basics of GitHub Action
 
 on:
   push:
     branches:
-      -  main
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
