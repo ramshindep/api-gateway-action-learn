@@ -15,5 +15,14 @@ jobs:
         run: |
          apk add --no-cache $JDK_VERSION
          java --version
+
+  print-env:
+     runs-on: ubuntu-latest
+     container: 
+       image: alpine:latest
+     steps:
+       - name : print env
+         run: echo $JDK_VERSION
+     
      
         
