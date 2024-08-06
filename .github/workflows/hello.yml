@@ -1,0 +1,6 @@
+name: Learn basic of GitHub Action
+
+on:
+  push:
+    branches:
+      -  main
